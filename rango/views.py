@@ -21,7 +21,7 @@ def index(request):
     context_dict['boldmessage'] = 'Crunchy, creamy, cookie, candy, cupcake!'
     context_dict['pages'] = page_list
     context_dict['categories'] = category_list
-    # Render the response and send it back!
+
     return render(request, 'rango/index.html', context=context_dict)
 
 def about(request):
